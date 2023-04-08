@@ -1,0 +1,18 @@
+@use "../utils" as u;
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--Pale-blue);
+  font-family: u.$font; 
+  color: #000000;
+}
