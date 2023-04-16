@@ -1,3 +1,30 @@
+  :root {
+    /* Nuetrals */
+    --White: hsl(0, 0%, 100%);
+     --Pale-blue: hsl(221, 100%, 96%); --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+    /* Gradients */
+    --Light-slate-blue: hsl(252, 100%, 67%);
+     --Light-royal-blue: hsl(241, 81%, 54%); --Violet-blue: hsla(256, 72%, 46%, 1); --Persian-blue: hsla(241, 72%, 46%, 0);
+  }
+  html {
+    box-sizing: border-box;
+font-size: 10px;
+  }
+  *,*::before,*::after {
+    box-sizing: inherit;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--White);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  
+  
+  
   .attribution {
     font-size: 11px;
     text-align: center;
