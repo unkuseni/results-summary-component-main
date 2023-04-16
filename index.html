@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,37 +13,25 @@
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
   <!-- Card content -->
   <main>
-    <article class="results" id="1">
+    <div class="results" id="one">
       <h3>Your Result</h3>
       <div class="score">
-        <span class="total">76</span> of 100
+        <h1 class="total">76</h1><p>of 100</p>
       </div>
       <h2>Great</h2>
       <p class="comment">You scored higher than 65% of the people who have taken this tests.</p>
-    </article>
-    <div class="summary" id="2">
+    </div>
+    <div class="summary" id="two">
       <h3>Summary</h3>
       <ul>
-        <li>Reaction </li>
-        <li>Memory</li>
-        <li>Verbal</li>
-        <li>Visual</li>
+        
       </ul>
+      <button type="submit">Continue</button>
     </div>
   </main>
   <footer class="attribution">
