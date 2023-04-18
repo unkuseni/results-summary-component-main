@@ -35,11 +35,13 @@
     font-size: 1.5em;
     font-weight: 500;
     color: var(--Dark-gray-blue);
+    
   }
 
   .card {
-    width: 100%;
-    height: 100%;
+  justify-self: center;
+  align-self: center;
+
   }
 
   h3 {
@@ -66,6 +68,9 @@
     text-align: center;
     margin: auto;
     padding: 7.5px;
+    display: flex;
+    justify-content: center;
+  
   }
 
   .score {
@@ -76,53 +81,127 @@
   }
 
   .comment {
-    margin-top: 0;
+    margin: 0;
     padding: 0 23px;
     letter-spacing: 0.5px;
+
 
   }
 
   .summary {
     padding: 30px;
+    
   }
 
   #data>ul {
     list-style: none;
     display: inline;
+    padding: 0;
 
   }
 
+  li {
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 0px 15px;
+    font-weight: 600;
+  }
+
+  li>div {
+    display: flex;
+
+  }
+
+  img {
+    padding-right: 10px;
+  }
+
+  li>p {
+    color: var(--Light-lavender);
+  }
+
+  li>p>span {
+    color: var(--Dark-gray-blue);
+  }
 
   li:nth-child(1) {
-    background-color: hsla(0, 100%, 67%, 0.1);
+    background-color: hsla(0, 100%, 67%, 0.05);
     color: var(--Light-red);
   }
 
   li:nth-child(2) {
-    background-color: hsla(39, 100%, 56%, 0.1);
+    background-color: hsla(39, 100%, 56%, 0.07);
     color: var(--Orangey-yellow);
   }
 
   li:nth-child(3) {
-    background-color: hsla(166, 100%, 37%, 0.1);
+    background-color: hsla(166, 100%, 37%, 0.05);
     color: var(--Green-teal);
   }
 
   li:nth-child(4) {
-    background-color: hsla(234, 85%, 45%, 0.1);
+    background-color: hsla(234, 85%, 45%, 0.05);
     color: var(--Cobalt-blue)
   }
 
   button {
     width: 100%;
+    margin-top: 10px;
     color: var(--Pale-blue);
     background-color: var(--Dark-gray-blue);
-    font-size: 1.3em;
+    font-size: 17px;
     font-family: "Hanken Grotesk", sans-serif;
     font-weight: 600;
     padding: 15px;
-    border-radius: 25PX;
+    border-radius: 30px;
     border: none;
+  }
+
+  button:hover {
+    background-color: var(--Violet-blue);
+  }
+
+  @media only screen and (min-device-width: 500px) {
+    .card {
+      display: grid;
+      width: 600px;
+      margin: 100px auto;
+      grid-template-columns: 300px 300px;
+      border-radius: 25px;
+      box-shadow: 2.5px 2.5px 20px grey;
+      margin-bottom: 10px;
+
+    }
+
+    .total {
+      width: 300px;
+      border-radius: 25px;
+
+    }
+    .score {
+      font-size: 5em;
+    }
+    .circle {
+      width: 170px;
+      height: 170px;
+    }
+    h2 {
+font-size: 1.8em;
+margin-bottom: 0;
+    }
+    .comment {
+    
+padding: 10px;
+letter-spacing: normal;
+    }
+    .summary {
+      width: 300px;
+    }
+    button {
+      margin-top: 20px;
+    }
   }
 
   .attribution {
