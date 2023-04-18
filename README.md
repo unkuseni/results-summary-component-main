@@ -35,8 +35,8 @@ A scrrenshot of my solution
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/unkuseni/results-summary-component-main)
-- Live Site URL: [Add live site URL here](https://sage-truffle-8e6ea5.netlify.app/)
+- Solution URL: [Github Repo URL](https://github.com/unkuseni/results-summary-component-main)
+- Live Site URL: [Live Site URL](https://sage-truffle-8e6ea5.netlify.app/)
 
 ## My process
 
